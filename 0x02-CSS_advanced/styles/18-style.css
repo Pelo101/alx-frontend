@@ -406,6 +406,15 @@ a:active {
     float: right;
 }
 
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.nav.nav-item
+
 .section{
         padding: var(--section-padding);  
 }
