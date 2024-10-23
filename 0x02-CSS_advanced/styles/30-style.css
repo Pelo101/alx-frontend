@@ -452,7 +452,7 @@ a:active {
 }
 
 .card-work .card-outer{
-    position: absolute;
+    position: relative;
     overflow: hidden;
 }
 
@@ -478,7 +478,7 @@ a:active {
 .card-work .card-title{
     text-align: center;
     margin: 0;
-    opacity: 0%;
+    opacity: 0;
     height: 100%;
     position: relative;
 }
@@ -491,7 +491,7 @@ a:active {
 }
 
 .card-work .card-title a::after{
-    position:absolute;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
