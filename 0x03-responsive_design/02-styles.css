@@ -164,15 +164,14 @@
     color: var(--color-primary);
     background: var(--color-white);
   }
-
   
   /* Helpers
       ============================= */
   
   .visually-hidden:not(:focus):not(:active) {
     position: absolute !important;
-    height: auto;
-    width: 100%;
+    height: 1px;
+    width: 1px;
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
     white-space: nowrap;
@@ -184,10 +183,9 @@
       ============================= */
   
   .container {
-    width: 960px;
+    max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-    width: max-width;
   }
   
   /* Grid
@@ -214,7 +212,7 @@
   .col-1-2 {
     width: calc((100% / 2) - 2rem);
   }
-
+  
   /* Navbar
       ============================= */
   
@@ -263,8 +261,6 @@
     background-color: var(--color-primary);
     width: 100%;
   }
-
-  
   
   /* Header
       ============================= */
@@ -403,7 +399,6 @@
   .section-latest-news .row {
     flex-direction: row-reverse;
   }
-
   
   /* Section SERVICES
       ============================= */
